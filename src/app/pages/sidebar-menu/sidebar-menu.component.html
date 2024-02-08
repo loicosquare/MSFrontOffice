@@ -1,0 +1,13 @@
+<div class="sidebar">
+  <ul class="list-group">
+    <li *ngFor="let menuItem of menuItems" class="list-group-item d-flex flex-column align-items-center" [routerLink]="menuItem.routerLink" [routerLinkActive]="menuItem.routerLinkActive">
+      <i [class]="menuItem.iconClass + ' me-2 text-white'"></i>
+      <a class="nav-link">{{ menuItem.text }}</a>
+    </li>
+  </ul>
+
+</div>
+<div class="main-content">
+  <router-outlet></router-outlet>
+  <notifier-container></notifier-container>
+</div>
