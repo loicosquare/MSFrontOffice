@@ -67,3 +67,43 @@
   justify-content: center;
 }
 /*Partie du modal */
+
+/* Parie rating */
+
+.ratings-container {
+  margin-top: 20px;
+}
+
+.rating-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rating-feedback {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating-value {
+  font-weight: bold;
+}
+
+.rating-icon {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-warning {
+  color: orange;
+}
+
+/* Parie rating */

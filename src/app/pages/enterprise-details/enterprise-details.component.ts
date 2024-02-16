@@ -48,6 +48,25 @@ export class EnterpriseDetailsComponent implements OnInit {
     );
   }
 
+  getStars(rating: number): number[] {
+    return Array.from({ length: rating }, (_, index) => index + 1);
+  }
+
+  getStarClass(rating: number): string {
+    if (rating > 3) {
+      return 'text-success';
+    } else if (rating < 3) {
+      return 'text-danger';
+    } else {
+      return 'text-warning';
+    }
+  }
+
+  getFeedbackColorClass(rating: number): string {
+    return this.getStarClass(rating);
+  }
+
+
   deleteEnterprise(entreprise: any) : void {
 
   }

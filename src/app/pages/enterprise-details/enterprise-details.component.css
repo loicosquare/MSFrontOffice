@@ -1,0 +1,182 @@
+.card {
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.avatar-xxl {
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+
+.pt-20 {
+  padding-top: 8rem !important;
+}
+
+.avatar-xxl.avatar-indicators:before {
+  bottom: 5px;
+  height: 16%;
+  right: 17%;
+  width: 16%;
+}
+
+.avatar-online:before {
+  background-color: #198754;
+}
+
+.avatar-indicators:before {
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  bottom: 0;
+  content: "";
+  display: table;
+  height: 30%;
+  position: absolute;
+  right: 5%;
+  width: 30%;
+}
+
+.mt-n10 {
+  margin-top: -3rem !important;
+}
+
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+
+.align-items-end {
+  align-items: flex-end !important;
+}
+
+.py-6 {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 2rem !important;
+}
+
+.avatar-xl {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar {
+  display: inline-block;
+  height: 3rem;
+  position: relative;
+  width: 3rem;
+}
+
+.mt-n7 {
+  margin-top: -1.75rem !important;
+}
+
+.ms-4 {
+  margin-left: 1rem !important;
+  border: 2px solid cadetblue;
+  border-radius: 22px;
+}
+
+.avatar img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+
+
+.card-body {
+  padding: 1.5rem;
+}
+
+h4 {
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.game-price {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+P {
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.user-rating {
+  color: #6c757d;
+}
+
+.rating-feedback {
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.rating-icon {
+  margin-top: 0.5rem;
+}
+
+.fas.fa-star {
+  color: #ffc107;
+  font-size: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+.text-rating {
+  color: inherit;
+}
